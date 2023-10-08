@@ -132,7 +132,6 @@ contract StakingContract is ERC20, ERC20Burnable {
         stakers[msg.sender].unclaimedRewards = 0;
     }
 
-    // Function useful for the front-end that returns user stake and rewards by address
     function getDepositInfo(
         address _user
     ) public view returns (uint256 _stake, uint256 _rewards) {
