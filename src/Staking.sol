@@ -38,7 +38,7 @@ contract StakingContract is ERC20, ERC20Burnable {
     mapping(address => Staker) internal stakers;
 
     // Constructor function
-    constructor(address _wethAddress) ERC20("YourTokenName", "YTN") {
+    constructor(address _wethAddress) ERC20("natachigram", "NTK") {
         wethAddress = _wethAddress;
     }
 
